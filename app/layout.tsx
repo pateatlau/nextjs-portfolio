@@ -24,7 +24,7 @@ export default function RootLayout({
       <head>
         <link
           rel="icon"
-          href="/jsm-logo.png"
+          href="/jsm-logo.jpg"
           sizes="any"
         />
       </head>
