@@ -27,4 +27,6 @@ Next, run the following command to start the development server:
 npm run dev
 ```
 
-The development server will start at `http://localhost:1971`. You can access the application by navigating to this URL in your web browser.
+The development server will start at `http://localhost:8888`. You can access the application by navigating to this URL in your web browser.
+
+Production site can be found at `https://portfolio-84fq8sihj-laldingliana-tlau-vantawls-projects.vercel.app/`.

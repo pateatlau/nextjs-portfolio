@@ -27,9 +27,10 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help your
           company achieve higher goals.
         </p>
-        <a href="mailto:contact@pateatlau@gmail.com">
+        {/* <a href="mailto:contact@pateatlau@gmail.com"> */}
+        <a href="https://github.com/pateatlau/nextjs-portfolio">
           <MagicButton
-            title="Let's get in touch"
+            title="Visit Site Source Code"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -39,7 +40,6 @@ const Footer = () => {
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2025 Laldingiana Tlau Vantawl
         </p>
-
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
             <div

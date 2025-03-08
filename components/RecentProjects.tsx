@@ -1,16 +1,15 @@
-"use client";
+'use client';
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow } from 'react-icons/fa6';
 
-import { projects } from "@/data";
-import { PinContainer } from "./ui/Pin";
+import { projects } from '@/data';
+import { PinContainer } from './ui/Pin';
 
 const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        A small selection of <span className="text-purple">Top Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -19,15 +18,18 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title="Lalding's Projects"
+              href="#"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
+                  style={{ backgroundColor: '#13162D' }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img
+                    src="/bg.png"
+                    alt="bgimg"
+                  />
                 </div>
                 <img
                   src={item.img}
@@ -43,13 +45,12 @@ const RecentProjects = () => {
               <p
                 className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                 style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
+                  color: '#BEC1DD',
+                  margin: '1vh 0',
                 }}
               >
                 {item.des}
               </p>
-
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
@@ -60,16 +61,42 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img
+                        src={icon}
+                        alt="icon5"
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>
+              </div>
+              <div className="flex items-center justify-between mt-7 mb-3">
+                <div className="flex justify-center items-center">
+                  <a
+                    href={item.liveSite}
+                    target="_blank"
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
+                    Live Site
+                    <FaLocationArrow
+                      className="ms-3"
+                      color="#CBACF9"
+                    />
+                  </a>
+                </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <a
+                    href={item.sourceCode}
+                    target="_blank"
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
+                    Source Code
+                    <FaLocationArrow
+                      className="ms-3"
+                      color="#CBACF9"
+                    />
+                  </a>
                 </div>
               </div>
             </PinContainer>
