@@ -55,17 +55,17 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Hi, I'm Laldingliana Tlau Vantawl, world class professional Web Developer"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m{' '}
+            Delivering{' '}
+            <span className="text-purple text-4xl">world class solutions </span>
+            &nbsp;and&nbsp;
             <span className="text-purple text-4xl">
-              Laldingliana Tlau Vantawl
-            </span>
-            , world class professional Frontend Technical Lead based in
-            Bangalore.
+              Seamless User Experiences
+            </span>{' '}
           </p>
 
           <a href="#about">
