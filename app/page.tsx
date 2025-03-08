@@ -7,8 +7,8 @@ import Hero from '@/components/Hero';
 // import Grid from '@/components/Grid';
 import RecentProjects from '@/components/RecentProjects';
 import Experience from '@/components/Experience';
+import Clients from '@/components/Clients';
 import Footer from '@/components/Footer';
-// import Clients from '@/components/Clients';
 // import Approach from '@/components/Approach';
 
 const Home = () => {
@@ -20,7 +20,8 @@ const Home = () => {
         {/* <Grid /> */}
         <RecentProjects />
         <Experience />
-
+        <Clients />
+        <Footer />
         {/* <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
