@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a portfolio website built with Nextjs. It features a responsive and modern design. The website is built using Tailwind CSS for styling and Next.js for server-side rendering.
+This is a fullstack portfolio website built with Nextjs. It features a responsive and modern design. The website is built using Tailwind CSS for styling and Next.js for server-side rendering.
 
 ## Prerequisites
 
