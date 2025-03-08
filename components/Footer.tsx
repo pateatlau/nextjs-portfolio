@@ -6,7 +6,7 @@ import MagicButton from './MagicButton';
 const Footer = () => {
   return (
     <footer
-      className="w-full pt-20 pb-10"
+      className="w-full pt-20 pb-16"
       id="contact"
     >
       {/* background grid */}
