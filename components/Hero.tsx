@@ -60,8 +60,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Laldingliana, world class professional Frontend
-            Technical Lead based in Bangalore.
+            Hi! I&apos;m{' '}
+            <span className="text-purple text-4xl">
+              Laldingliana Tlau Vantawl
+            </span>
+            , world class professional Frontend Technical Lead based in
+            Bangalore.
           </p>
 
           <a href="#about">
