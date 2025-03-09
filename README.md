@@ -29,4 +29,4 @@ npm run dev
 
 The development server will start at `http://localhost:8888`. You can access the application by navigating to this URL in your web browser.
 
-Please visit prod live site at https://portfolio-kxmw1d1me-laldingliana-tlau-vantawls-projects.vercel.app/.
+Please visit prod live site at https://lalding.com/.
