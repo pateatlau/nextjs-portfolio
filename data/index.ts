@@ -186,9 +186,9 @@ export const companies = [
   },
   {
     id: 8,
-    name: 'Davinta',
-    img: '/davinta.jpg',
-    nameImg: '/davinta.jpg',
+    name: 'Kaseya',
+    img: '/kaseya.jpg',
+    nameImg: '/kaseya.jpg',
   },
   {
     id: 9,
