@@ -29,4 +29,11 @@ npm run dev
 
 The development server will start at `http://localhost:8888`. You can access the application by navigating to this URL in your web browser.
 
-Please visit prod live site at https://lalding.com/.
+Please visit prod live site at:
+
+- https://lalding.com/
+- http://lalding-portfolio.s3-website-ap-northeast-1.amazonaws.com/
+
+References:
+
+1. Deploy static website to S3 bucket (https://www.youtube.com/watch?v=N-gzLmYLRRk)

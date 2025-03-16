@@ -61,14 +61,14 @@ const Hero = () => {
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Delivering{' '}
-            <span className="text-purple text-4xl">world class solutions </span>
+            <span className="text-purple text-2xl">world class solutions </span>
             &nbsp;and&nbsp;
-            <span className="text-purple text-4xl">
-              Seamless User Experiences
+            <span className="text-purple text-2xl">
+              seamless user experiences
             </span>{' '}
           </p>
 
-          <a href="#about">
+          <a href="https://projects.lalding.com/">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

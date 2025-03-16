@@ -1,6 +1,6 @@
 export const navItems = [
   { name: 'About', link: '#about' },
-  { name: 'Projects', link: '#projects' },
+  { name: 'Projects', link: 'https://projects.lalding.com/' },
   { name: 'Testimonials', link: '#testimonials' },
   { name: 'Contact', link: '#contact' },
 ];
@@ -186,7 +186,7 @@ export const companies = [
   },
   {
     id: 8,
-    name: 'Davint',
+    name: 'Davinta',
     img: '/davinta.jpg',
     nameImg: '/davinta.jpg',
   },
@@ -242,7 +242,7 @@ export const workExperience = [
   },
   {
     id: 6,
-    title: 'Senior Software Engineer, Colective India Pvt. Ltd.',
+    title: 'Senior Software Engineer, Collective India Pvt. Ltd.',
     desc: 'Developed and maintained user-facing features using modern frontend technologies.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
